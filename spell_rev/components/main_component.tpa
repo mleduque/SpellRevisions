@@ -598,7 +598,7 @@ ACTION_IF NOT (FILE_EXISTS_IN_GAME "dvknbck.spl") BEGIN
 END ELSE BEGIN
   FAIL "File 'dvknbck.spl' already exists in game."
 END
-ACTION_IF NOT (FILE_EXISTS_IN_GAME "dvknbck.spl") BEGIN
+ACTION_IF NOT (FILE_EXISTS_IN_GAME "dvknbck.eff") BEGIN
   COPY ~spell_rev\sppr2##\dvknbck.eff~    ~override~
 END ELSE BEGIN
   FAIL "File 'dvknbck.eff' already exists in game."
